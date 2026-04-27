@@ -1,0 +1,24 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://b0e0reblseal"]
+
+[ext_resource type="Shader" uid="uid://bnpmqgmrvt1yi" path="res://Shaders/Standard.gdshader" id="1_r3x63"]
+[ext_resource type="Texture2D" uid="uid://cqwii8kdko5co" path="res://mods/TV_Party/Scenes/Television/Files/TX_Television_Frame_AL.png" id="2_g2o0b"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_r3x63")
+shader_parameter/albedo = ExtResource("2_g2o0b")
+shader_parameter/tint = Color(1, 1, 1, 1)
+shader_parameter/limiter = 0.1
+shader_parameter/dynamic = false
+shader_parameter/fractional = true
+shader_parameter/enableRain = true
+shader_parameter/enableSnow = true
+shader_parameter/snowTop = 0.8
+shader_parameter/snowSide = 0.75
+shader_parameter/snowBottom = 0.0
+shader_parameter/occlusion = false
+shader_parameter/noise = false
+shader_parameter/metal = false
+shader_parameter/glow = false
+shader_parameter/viewmodel = false
+shader_parameter/fresnel = 0.5

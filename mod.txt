@@ -1,0 +1,11 @@
+[mod]
+
+name="TV Party"
+id="tv-party"
+version="1.0.0"
+
+[autoload]
+
+TVParty="res://mods/TV_Party/Main.gd"
+
+[updates]

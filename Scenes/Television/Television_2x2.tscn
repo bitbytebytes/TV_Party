@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://c2urmp6eh3wq3"]
+
+[ext_resource type="Material" uid="uid://bigofhlj5i476" path="res://UI/Effects/MT_Item.tres" id="1_jy8tu"]
+[ext_resource type="Texture2D" uid="uid://bynudjbqa7e6t" path="res://mods/TV_Party/Scenes/Television/Files/Icon_Television.png" id="2_g0ykr"]
+
+[node name="Television" type="Sprite2D" unique_id=1203995033]
+material = ExtResource("1_jy8tu")
+position = Vector2(64, 64)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_g0ykr")
