@@ -6,7 +6,7 @@
 
 [resource]
 script = ExtResource("1_l0vcs")
-file = "Television_B"
+file = "Television_B_F"
 name = "Television B"
 inventory = "Television B"
 rotated = "Television B"
@@ -17,5 +17,10 @@ weight = 5.0
 icon = ExtResource("2_mo16a")
 tetris = ExtResource("3_5rtad")
 size = Vector2(2, 2)
+civilian = true
+industrial = true
+military = true
 generalist = true
+doctor = true
+gunsmith = true
 metadata/_custom_type_script = "uid://u2h8xa0l83va"

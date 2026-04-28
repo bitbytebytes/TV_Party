@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://b7s3yjm053trc"]
+
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="1_oeg3e"]
+[ext_resource type="Resource" uid="uid://da2viav1v5xdp" path="res://Items/Consumables/Canned_Meat/Canned_Meat.tres" id="2_b28kt"]
+[ext_resource type="Resource" uid="uid://lbuuwsdaq4ns" path="res://Items/Consumables/Canned_Pear/Canned_Pear.tres" id="3_6owlm"]
+[ext_resource type="Resource" uid="uid://cbpkjf558all5" path="res://Items/Consumables/Canned_Tuna/Canned_Tuna.tres" id="4_odnec"]
+[ext_resource type="Resource" uid="uid://dgkutj04adwhb" path="res://Items/Consumables/Canned_Peaches/Canned_Peaches.tres" id="5_8eyss"]
+[ext_resource type="Resource" uid="uid://byrjl4t6b0ft4" path="res://Items/Consumables/Canned_Pea_Soup/Canned_Pea_Soup.tres" id="6_55i4v"]
+[ext_resource type="Resource" uid="uid://cfb4xbj2prj61" path="res://Items/Consumables/Canned_Tomatoes/Canned_Tomatoes.tres" id="7_hxj6v"]
+[ext_resource type="Resource" uid="uid://rtocft0smxas" path="res://Items/Consumables/Canned_Meatballs/Canned_Meatballs.tres" id="8_b3hn0"]
+[ext_resource type="Resource" uid="uid://b51ellpufckux" path="res://Items/Consumables/Canned_Pineapple/Canned_Pineapple.tres" id="9_5nyei"]
+[ext_resource type="Resource" uid="uid://db07rkq0mditc" path="res://Items/Consumables/Canned_Peas/Canned_Peas.tres" id="10_b28kt"]
+[ext_resource type="Resource" uid="uid://dotbli58qyiif" path="res://mods/TV_Party/Scenes/Television/Television_B_F.tres" id="10_w07vl"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="11_gnyrc"]
+
+[resource]
+script = ExtResource("11_gnyrc")
+trader = "Generalist"
+name = "TV Party"
+difficulty = "Easy"
+description = "You bring the snacks, I'll provide the TV."
+deliver = Array[ExtResource("1_oeg3e")]([ExtResource("2_b28kt"), ExtResource("3_6owlm"), ExtResource("4_odnec"), ExtResource("5_8eyss"), ExtResource("6_55i4v"), ExtResource("7_hxj6v"), ExtResource("8_b3hn0"), ExtResource("9_5nyei"), ExtResource("10_b28kt")])
+receive = Array[ExtResource("1_oeg3e")]([ExtResource("10_w07vl")])
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"
